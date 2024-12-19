@@ -1,0 +1,197 @@
+/* Define Custom Colors */
+:root {
+    --rich-black: #011627;
+    --folly: #ff3366;
+    --light-sea-green: #2ec4b6;
+    --peach-yellow: #ffe1a8;
+    --pakistan-green: #04471c;
+  }
+  
+  /* Example Usage */
+  body {
+    color: var(--peach-yellow);
+    background-color: rgba(3, 64, 32, 0.719);
+  }
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.image-box {
+    text-align: center;
+}
+
+.image-box img {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+}
+
+.testimonials {
+    background-color:var(--rich-black);
+    color: var(--peach-yellow);
+    padding: 20px;
+    text-align: center;
+}
+
+.testimonial-box {
+    margin: 20px auto;
+    background-color:var(--rich-black);
+    color: var(--peach-yellow);
+    max-width: 600px;
+    font-style: italic;
+    
+}
+
+.cta {
+    background-color: #2ec4b6;
+    color:black ;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.cta button {
+    background-color: #04471c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cta button:hover {
+    background-color:#ff3366;
+}
+.cta1{
+  background-color: #04471c;
+  color:var(--peach-yellow) ;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.cta1 button {
+  background-color: #ff3366;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cta1 button:hover {
+  background-color:#ff3366;
+}
+
+  /* Navigation Bar */
+  nav {
+    background-color: var(--peach-yellow); /* Updated to light sea green */
+    color: var(--rich-black);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: var(--rich-black); /* Updated text color */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: var(--folly); /* Hover effect with folly color */
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 50px;
+    text-align: center;
+    background-color: var(--rich-black); /* Updated background to rich black */
+    color: var(--peach-yellow); /* Text updated to peach yellow */
+  }
+  
+  /* Cards Section */
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  .cardn {
+    /* Your existing card styles */
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 100%; /* Adjust to fit the width of the card */
+    height: 200px; /* Maintains aspect ratio */
+    border-radius: 8px; /* Optional, to give the image rounded corners */
+    object-fit: cover; /* Ensures the image fits well within the box */
+    margin-bottom: 15px; /* Adds space between the image and text */
+}
+  .card {
+    background-color: var(--light-sea-green); /* Updated to peach yellow */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: var(--rich-black); /* Text color updated to rich black */
+  }
+  
+  .card h2 {
+    color: var(--folly); /* Heading in folly color */
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+  
+  /* Headings */
+  h1 {
+    color: var(--pakistan-green); /* Folly for main headings */
+  }
+  
+  /* Buttons */
+  button {
+    background-color: var(--light-sea-green); /* Updated button background */
+    color: var(--rich-black); /* Updated text color for contrast */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: var(--folly); /* Button hover effect */
+    color: var(--pakistan-green);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--pakistan-green); /* Footer background */
+    color: var(--peach-yellow); /* Footer text */
+    text-align: center;
+    padding: 10px;
+  }
+  

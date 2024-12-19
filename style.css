@@ -1,4 +1,4 @@
-/* Define Custom Colors */
+
 :root {
     --rich-black: #011627;
     --folly: #ff3366;
@@ -7,7 +7,7 @@
     --pakistan-green: #04471c;
   }
   
-  /* Example Usage */
+  
   body {
     color: var(--peach-yellow);
     background-color: rgba(3, 64, 32, 0.719);
@@ -85,9 +85,9 @@
   background-color:#ff3366;
 }
 
-  /* Navigation Bar */
+
   nav {
-    background-color: var(--peach-yellow); /* Updated to light sea green */
+    background-color: var(--peach-yellow); 
     color: var(--rich-black);
     padding: 10px 20px;
     display: flex;
@@ -111,31 +111,31 @@
   }
   
   nav ul li a {
-    color: var(--rich-black); /* Updated text color */
+    color: var(--rich-black); 
     text-decoration: none;
     font-weight: bold;
   }
   
   nav ul li a:hover {
-    color: var(--folly); /* Hover effect with folly color */
+    color: var(--folly); 
   }
   
   /* Hero Section */
   .hero {
     padding: 50px;
     text-align: center;
-    background-color: var(--rich-black); /* Updated background to rich black */
-    color: var(--peach-yellow); /* Text updated to peach yellow */
+    background-color: var(--rich-black);
+    color: var(--peach-yellow); 
   }
   
-  /* Cards Section */
+  
   .cards {
     display: flex;
     justify-content: space-around;
     margin: 20px;
   }
   .cardn {
-    /* Your existing card styles */
+    
     width: 30%;
     padding: 20px;
     margin: 10px;
@@ -143,38 +143,38 @@
 }
 
 .card-image {
-    width: 100%; /* Adjust to fit the width of the card */
-    height: 200px; /* Maintains aspect ratio */
-    border-radius: 8px; /* Optional, to give the image rounded corners */
-    object-fit: cover; /* Ensures the image fits well within the box */
-    margin-bottom: 15px; /* Adds space between the image and text */
+    width: 100%; 
+    height: 200px; 
+    border-radius: 8px; 
+    object-fit: cover; 
+    margin-bottom: 15px; 
 }
   .card {
-    background-color: var(--light-sea-green); /* Updated to peach yellow */
+    background-color: var(--light-sea-green); 
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     text-align: center;
-    color: var(--rich-black); /* Text color updated to rich black */
+    color: var(--rich-black); 
   }
   
   .card h2 {
-    color: var(--folly); /* Heading in folly color */
+    color: var(--folly); 
   }
   .card:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
   
-  /* Headings */
+  
   h1 {
-    color: var(--pakistan-green); /* Folly for main headings */
+    color: var(--pakistan-green); 
   }
   
-  /* Buttons */
+  
   button {
-    background-color: var(--light-sea-green); /* Updated button background */
-    color: var(--rich-black); /* Updated text color for contrast */
+    background-color: var(--light-sea-green);
+    color: var(--rich-black); 
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -183,14 +183,14 @@
   }
   
   button:hover {
-    background-color: var(--folly); /* Button hover effect */
+    background-color: var(--folly); 
     color: var(--pakistan-green);
   }
   
-  /* Footer */
+  
   footer {
-    background-color: var(--pakistan-green); /* Footer background */
-    color: var(--peach-yellow); /* Footer text */
+    background-color: var(--pakistan-green);
+    color: var(--peach-yellow); 
     text-align: center;
     padding: 10px;
   }

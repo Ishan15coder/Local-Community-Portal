@@ -10,7 +10,7 @@
     
     body {
       color: var(--peach-yellow);
-      background-color: rgba(3, 64, 32, 0.719);
+      background-color: #383838;
     }
     .image-container {
       display: flex;
@@ -87,8 +87,8 @@
 
 
     nav {
-      background-color: var(--peach-yellow); 
-      color: var(--rich-black);
+      background-color: var(--rich-black); 
+      color: var(--peach-yellow);
       padding: 10px 20px;
       display: flex;
       justify-content: space-between;
@@ -110,7 +110,7 @@
     }
     
     nav ul li a {
-      color: var(--rich-black); 
+      color: var(--peach-yellow); 
       text-decoration: none;
       font-weight: bold;
     }
@@ -122,8 +122,8 @@
     .hero {
       padding: 50px;
       text-align: center;
-      background-color: var(--rich-black);
-      color: var(--peach-yellow); 
+      background-color: var(--peach-yellow);
+      color: var(--rich-black); 
     }
     
     
@@ -150,7 +150,7 @@
     .card {
       background-color: var(--light-sea-green); 
       padding: 20px;
-      border-radius: 5px;
+      border-radius: 68%;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
       text-align: center;
       color: var(--rich-black); 
@@ -166,7 +166,7 @@
     
     
     h1 {
-      color: var(--pakistan-green); 
+      color: var(--peach-yellow); 
     }
     
     
